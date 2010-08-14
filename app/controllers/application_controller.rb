@@ -16,7 +16,7 @@ class ApplicationController < ActionController::Base
   protected
   def redirect_if_mobile
     if request.mobile?
-        redirect_to :controller=>'mo_top_menus'
+        redirect_to :controller=>'mo_ekimae'
     end
   end
 
